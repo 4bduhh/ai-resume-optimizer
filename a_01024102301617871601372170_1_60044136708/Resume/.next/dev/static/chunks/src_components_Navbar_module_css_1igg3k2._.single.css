@@ -1,0 +1,57 @@
+/* [project]/src/components/Navbar.module.css [app-client] (css) */
+.Navbar-module__cJzEcG__navbar {
+  background: var(--bg-color);
+  border-bottom: 1px solid var(--glass-border);
+  z-index: 100;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  display: flex;
+  position: sticky;
+  top: 0;
+}
+
+.Navbar-module__cJzEcG__logo {
+  background: linear-gradient(90deg, #e6edf3, #8b949e);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.Navbar-module__cJzEcG__navLinks {
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.Navbar-module__cJzEcG__navLinks a {
+  color: var(--text-secondary);
+  transition: color var(--transition-speed) ease;
+  font-size: 1rem;
+  font-weight: 500;
+  position: relative;
+}
+
+.Navbar-module__cJzEcG__navLinks a:hover {
+  color: var(--text-primary);
+}
+
+.Navbar-module__cJzEcG__navLinks a.Navbar-module__cJzEcG__active {
+  color: var(--accent-color);
+}
+
+.Navbar-module__cJzEcG__navLinks a.Navbar-module__cJzEcG__active:after {
+  content: "";
+  background: var(--accent-color);
+  border-radius: 2px;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+}
+
+/*# sourceMappingURL=src_components_Navbar_module_css_1igg3k2._.single.css.map*/
